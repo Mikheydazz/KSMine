@@ -1,0 +1,172 @@
+.main{
+	background-color: #DDF9D3;
+}
+.container{
+	max-width: 1177px;
+	margin: 0 auto;
+}
+.head{
+	padding-top: 5px;
+	display: flex;
+	justify-content: space-evenly;
+	max-height: 157px;
+	align-items: center;
+}
+.menu{
+	display: flex;
+	margin: auto 0;
+}
+.menu_item{
+	list-style: none;
+	margin-right: 30px;
+}
+.link{
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+	font-family: Roboto;
+	line-height: 164.063%;
+	letter-spacing: 1.6px;
+}
+.link:hover{
+	color: #2A5E2C;
+}
+.text{
+	color: black;
+	text-align: center;
+	font-size: 32px;
+	font-family: Roboto;
+	line-height: 164.063%;
+	letter-spacing: 3.2px;
+	margin: auto 0;
+	margin-bottom: 69px;
+
+}
+.about{
+	display: flex;
+	padding: 43px 0;
+}
+.money{
+	margin-right: 52px;
+	overflow: hidden;
+}
+.ksmine{
+	color: #FFF;
+font-size: 32px;
+font-family: Roboto;
+line-height: 164.063%;
+letter-spacing: 3.2px;
+margin: 0;
+padding-top: 20px;
+}
+.copy{
+	color: #FFF;
+font-size: 20px;
+font-family: Roboto;
+line-height: 164.063%;
+letter-spacing: 2px;
+margin: 0;
+padding-bottom: 25px;
+}
+.footer{
+	background-color: #2A5E2C;
+}
+.btn{
+width: 503px;
+height: 98px;
+	display: block;
+border-radius: 25px;
+background: #2A5E2C;
+border: none;
+margin: 0 auto;
+transition: background 0.2s;
+}
+.btn:hover{
+	background-color: #132914;
+	transition: 0.2s;
+}
+.btn_text{
+		color: #FFF;
+text-align: center;
+font-size: 32px;
+font-family: Roboto;
+line-height: 164.063%;
+letter-spacing: 3.2px;
+padding: 21 122;
+margin: auto 0;
+}
+.content{
+	margin: auto 0;
+}
+.form{
+	display: block;
+	margin: 0 auto;
+}
+.oopse{
+	padding: 190px 0;
+	margin: 0 auto;
+}
+
+@media (max-width: 420px) {
+
+.head{
+	display: flex;
+	flex-direction: column;
+}
+.link{
+	color: black;
+font-size: 14px;
+font-family: Roboto;
+line-height: 164.063%;
+letter-spacing: 1.4px;
+}
+.logo_img{
+	max-width: 63px;
+	max-height: 63px;
+}
+.text{
+	color: #000;
+text-align: center;
+font-size: 15px;
+font-family: Roboto;
+line-height: 164.063%;
+letter-spacing: 1.5px;
+}
+.btn_text{
+	color: #FFF;
+text-align: center;
+font-size: 16px;
+font-family: Roboto;
+line-height: 164.063%;
+letter-spacing: 1.6px;
+}
+.btn{
+	max-width: 291px;
+	max-height: 56px;
+}
+.money{
+	display: none;
+}
+.menu{
+	padding-bottom: 28px;
+}
+.copy{
+	max-width: 266px;
+	margin: 0 auto;
+}
+.ksmine{
+	max-width: 150px;
+	margin: 0 auto;
+}
+.ft{
+	text-align: center;
+}
+.about{
+	padding-top: 113px;
+	padding-bottom: 265px;
+}
+.form{
+	max-height: 700px;
+	max-width: 372px;
+}
+}
