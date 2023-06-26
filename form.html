@@ -3,6 +3,7 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/langbutton.css">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Заявка</title>
@@ -21,21 +22,23 @@
 			<ul class="menu">
 				
 				<li class="menu_item">
-					<a class="link" href="form.html">ЗАЯВКА</a>
+					<a class="link" href="form.html" id="Item1">ЗАЯВКА</a>
 				</li>
 				<li class="menu_item">
-					<a class="link" href="about.html">О ДВОРЕ</a>
+					<a class="link" href="about.html" id="Item2">О ДВОРЕ</a>
 				</li>
 				<li class="menu_item">
-					<a class="link" href="index.html">ГЛАВНАЯ</a>
+					<a class="link" href="index.html" id="Item3">ГЛАВНАЯ</a>
 				</li>
 
 			</ul>
+			<button class="change" id="change"><p class="btn_text" id="English">English</p></button>
 		</div>
 	</header>
 
 	<main class="main">
 		<iframe class="form" id="form" src="https://docs.google.com/forms/d/e/1FAIpQLSdYpGpWh9viltEBJ-R7RdfDeTSpYmw8b79sOh-BYvgv3Txu9A/viewform?embedded=true" width="640" height="1205" frameborder="0" marginheight="0" marginwidth="0">Загрузка…</iframe>
+		<iframe class="form" id="form2" src="https://docs.google.com/forms/d/e/1FAIpQLSevU3p6qlKfHd03VXVxPb3sf3qN97DpOu6xR1m0g0MOvrCFXg/viewform?embedded=true" width="640" height="1205" frameborder="0" marginheight="0" marginwidth="0">Загрузка…</iframe>
 	</main>
 
 	<footer class="footer">
@@ -46,5 +49,7 @@
 	</footer>
 	<script type="text/javascript" src="js/button.js"></script>
 	<script type="text/javascript" src="js/form.js"></script>
+	<script type="text/javascript" src="js/langchange.js"></script>
+	<script type="text/javascript" src="js/engform.js"></script>
 </body>
 </html>
