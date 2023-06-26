@@ -105,8 +105,28 @@ margin: auto 0;
 	padding: 190px 0;
 	margin: 0 auto;
 }
+.change{
+	border: none;
+	display: block;
+	max-width: 180px;
+	max-height: 130px;
+	background-color: #2A5E2C;
+	transition: 0.2s;
+}
+.change:hover{
+	background-color: #132914;
+	transition: 0.2s;
+}
 
 @media (max-width: 420px) {
+
+.change{
+	position: relative;
+	left: 30%;
+	bottom: 130px;
+	max-width: 80px;
+	max-height: 30px;
+}
 
 .head{
 	display: flex;
